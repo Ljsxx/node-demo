@@ -1,0 +1,16 @@
+{
+  "name": "node-demo",
+  "version": "1.0.0",
+  "description": "a node demo",
+  "main": "http1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Trey",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "formidable": "^1.2.1",
+    "uuid": "^3.3.2"
+  }
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>page-add</title>
+</head>
+
+<body>
+    <h1>page-add</h1>
+    <div style="padding:20px;margin-bottom:30px;border:1px solid #eee;">
+        <h2 style="color:#f66666;">GET</h2>
+        <form action="http://127.0.0.2:8848/" method="get">
+            <p>姓名: <input type="text" name="name" placeholder="请输入姓名" /></p>
+            <p>年龄: <input type="number" name="age" placeholder="请输入年龄" /></p>
+            <p>性别: 
+                <label><input type="radio" name="sex" value="male">男</label>
+                <label><input type="radio" name="sex" value="female">女</label>
+            </p>
+            <p>姓名: <input type="submit" value="提交" /></p>
+
+        </form>
+    </div>
+    <div style="padding:20px;margin-bottom:30px;border:1px solid #eee;">
+        <h2 style="color:#f66666;">POST</h2>
+        <form action="http://127.0.0.2:8848/" method="post">
+            <p>姓名: <input type="text" name="name" placeholder="请输入姓名" /></p>
+            <p>年龄: <input type="number" name="age" placeholder="请输入年龄" /></p>
+            <p>性别: 
+                <label><input type="radio" name="sex" value="male">男</label>
+                <label><input type="radio" name="sex" value="female">女</label>
+            </p>
+            <p>学科: 
+                <label><input type="checkbox" name="college" value="html">html</label>
+                <label><input type="checkbox" name="college" value="css">css</label>
+                <label><input type="checkbox" name="college" value="js">js</label>
+            </p>
+            <p>头像: 
+                <input type="file" name="headImg" />
+            </p>
+            <p>姓名: <input type="submit" value="提交" /></p>
+
+        </form>
+    </div>
+</body>
+
+</html>
